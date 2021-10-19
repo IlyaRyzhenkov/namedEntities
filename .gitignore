@@ -128,3 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/
+report.pdf
+report.odg
+.~lock.report.odg#
