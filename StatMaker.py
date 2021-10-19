@@ -11,9 +11,9 @@ class StatMaker:
         per_f1 = self.compute_f1(per_precision, per_recall)
         total_f1 = self.compute_f1(total_precision, total_recall)
 
-        print(f"Statistics:\n  Precision:\n    organisation:{org_precision} person:{per_precision} total:{total_precision}")
-        print(f"  Recall:\n    organisation:{org_recall} person:{per_recall} total:{total_recall}")
-        print(f"  F1:\n    organisation:{org_f1} person:{per_f1} total:{total_f1}")
+        print(f"Statistics:\n  Precision:\n    organization:{org_precision} person:{per_precision} total:{total_precision}")
+        print(f"  Recall:\n    organization:{org_recall} person:{per_recall} total:{total_recall}")
+        print(f"  F1:\n    organization:{org_f1} person:{per_f1} total:{total_f1}")
 
     def compute_precision(self):
         org_total_marked = 0
